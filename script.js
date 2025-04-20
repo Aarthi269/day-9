@@ -49,7 +49,6 @@ const posts = [
     const commentDiv = document.getElementById('comments-' + postId);
     const comments = commentsData[postId] || [];
   
-    // Toggle visibility
     if (commentDiv.innerHTML !== '') {
       commentDiv.innerHTML = '';
       btn.textContent = 'Show Comments';
